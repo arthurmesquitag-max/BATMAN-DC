@@ -1,0 +1,61 @@
+    
+
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0; /* espaçamento em volta zerado */
+        padding: 0;/* espaçamento em volta zerado */
+        box-sizing: border-box;/* evita que os elementos aumente de tamanho ines´peradamente facilitando o controle da resposividade */
+    }
+    .cabecalho{
+        background-color:#04018b;
+        color: white;
+        padding: 1.5rem; 
+        /* alinhamento dos intens */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        /* header fixo */
+        position: sticky; /* poscionamentpo do header para sobrepor os outros elementos */
+        left: 0;
+        top: 0;
+        z-index: 999;    /* eixo z- profundidade do elemento */
+    }
+   .div-logo img{
+    width: 35%;
+   }
+   .div-button a button{
+    width: 5rem; /* seria 80px */
+  padding: 0.5rem; /* 8px- preenchimento */
+ background-color: rgb(255, 0, 0);
+ border: none; /* cor do botao */
+ font-weight: 700;/* espessura da font dp botao */
+ border-radius: 5px; /* arependondamento da borda */
+}
+.section-01{
+    padding: 10rem;/* preenchimento interno da section*/
+    background-image: url(BATMAN\ IMG-1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; /* poderiamos usar 32px */
+   flex-wrap: wrap; /* isso significa que as div poderao quebra de linha, caso necessario */
+}
+.div01{
+background-color: black; /* cor de fundo */
+color: white;/* cor dos textos */
+text-align: center;/* alinhamento centralziados dos texto */
+font-size: 2rem;/* tamanho da letra dentro da caixa */
+padding: 1rem;/* preenchimento da caixa */
+width: 25%;/* largura de caixa em porcentagem */
+height: 20rem;/* altura da caixa utilizando o rem */
+min-width: 299px;
+}
+
+.div02{
+
+}
