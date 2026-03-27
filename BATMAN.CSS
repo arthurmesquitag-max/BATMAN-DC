@@ -109,5 +109,34 @@
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
+    padding: 5rem;
     background-color: black;
+    flex-wrap: wrap;
+}
+
+.caixa {
+    width: 25%;
+    height: 22rem;
+    background-color: #00005e;
+    min-width: 299px;
+    font-size: 1.2rem;
+    color: aqua;
+    box-shadow: 10px 10px 20px rgb(233, 0, 0);
+    cursor: pointer;
+}
+
+.caixa:hover {
+    box-shadow: 12px 12px 22px rgb(red, green, blue);
+    transition: 0.8s;
+}
+
+.section-03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: black;
+    flex-wrap: wrap;
+
 }
