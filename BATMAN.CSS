@@ -104,7 +104,8 @@
     background-size: cover;
 }
 
-.section-02, .section-04 {
+.section-02,
+.section-04 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,24 +141,94 @@
     flex-wrap: wrap;
 
 }
-.div03, .div04{
+
+.div03,
+.div04 {
     height: 15rem;
     padding: 1rem;
     text-align: center;
 }
-.content-text{
+
+.content-text {
     text-align: start;
     margin: 1rem;
 }
-.icon-div03 i{
+
+.icon-div03 i {
     color: black;
     font-size: 3rem;
     margin-top: 1.2rem;
 }
-.button-div04 a button{
+
+.button-div04 a button {
     padding: 0.5rem;
     background-color: black;
     color: white;
     font-weight: 600;
     margin: 1rem;
+}
+
+/* INICIO DA ESTILIZAÇÃO */
+.rodape {
+    background-color: #00005e;
+    /* cor de fundo */
+    padding: 2rem;
+    /* 32px */
+    text-align: center;
+    /* alinhamento texto centro */
+    font-size: 1.1;
+    /* definindo tamanho do text */
+}
+
+.content {
+    display: flex;
+    /* flexbox/ lado a lado */
+    align-items: center;
+    /* alinhamento vertical */
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.social-media {
+    padding: 1.5rem;
+}
+
+.social-media i {
+    color: rgb(255, 2, 2);
+    font-size: 2em;
+    margin: 0.5em
+}
+
+.line {
+    width: 60%;
+    /* largura da linha */
+    margin: 0.5rem auto;
+    background-color: red;
+    border: none;
+    height: 2px;
+}
+
+.div-list ul li a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.div-list ul li a:hover {
+    color: aquamarine;
+    transition: 0.8s;
+}
+@media (max-width: 600px){
+.content{
+    flex-direction: column;
+}
+}
+.caixa:hover{
+    box-shadow: 12px 12px 12px rgb(red, green, blue);
+    transition: 0.8s;
+}
+.caixa img{
+    width: 100%;
+    height: 50%;
 }
